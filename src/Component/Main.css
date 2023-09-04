@@ -1,0 +1,31 @@
+/* src/components/JokeCategories.css */
+.categories-container {
+    max-width: 600px; /* Adjust the maximum width as needed */
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin: 5px;
+    font-size: 18px;
+  }
+  
+  /* Add media queries for responsiveness */
+  @media (max-width: 768px) {
+    .categories-container {
+      font-size: 16px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .categories-container {
+      font-size: 14px;
+    }
+  }
+  
